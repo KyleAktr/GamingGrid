@@ -1,0 +1,74 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+
+
+
+body{
+    background-color: black;
+    color: aliceblue;
+    margin: 50px 100px auto 100px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0;
+    /* margin-bottom: 30px;
+    height: 60px; */
+    /* margin: auto; */
+    width:auto;
+}
+
+.articles{
+    display: grid;
+    grid-gap: 70px;
+    grid-template-columns: auto auto auto;
+    /* width: 40%; */
+}
+
+.card { 
+    width: 300px;
+    /* display: grid;
+    grid-template-columns: auto auto auto;
+    width: 40%;
+    margin: auto; */ 
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+  }
+  
+
+h1{
+    color: rgb(211, 0, 0);
+
+}
+
+p{
+    font-size: large;
+}
+
+a{
+    color: rgb(211, 0, 0);
+    text-decoration: none;
+}
+
+.searchbar{
+    display: flex;
+    align-items: center;
+    background-color:black;
+    padding: 8px 25px;
+    border-radius: 20px;
+    border: 1px solid black;
+    max-width: max-content;
+}
+
+#title{
+    color: rgb(211, 0, 0) !important;
+    font-weight: 700;
+}

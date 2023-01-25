@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./src/assets/style.css" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row mt-2 mb-4">
+        <div class="leTitle">
+          <div class="col-lg-8 col-md-8 col-sm-12 mb-4">
+            <h1 id="title"><a href="#">Gaming Grid</a></h1>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12">
+          <div class="searchbar">
+            <i class="fa-solid fa-magnifying-glass" id="searchbtn"></i>
+            <input
+              type="search"
+              placeholder="Find a game..."
+              id="searchinput"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="letsgo"></div>
+    <a href="#">Home</a>
+    <a href="#pagelist">PageList</a>
+    <a href="#pagelist/borderlands">PageList borderlands</a>
+    <div id="cards-container"></div>
+    <script type="module" src="src/main.js"></script>
+  </body>
+</html>
